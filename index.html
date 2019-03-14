@@ -41,3 +41,84 @@
               <label for="date">Date of birth</label>
               <input class="pad-t-1-8" type="date" id="date" name="date" required>
             </div>
+
+            <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-t-1-8">
+             <label for="tshirt">T-shirt size</label>
+             <select class="pad-t-1-8" id="tshirt" required multiple>
+               <option value="">Select a t-shirt size</option>
+               <optgroup label="Fitted">
+                 <option>Fitted: XS</option>
+                 <option>Fitted: S</option>
+                 <option>Fitted: M</option>
+                 <option>Fitted: L</option>
+                 <option>Fitted: XL</option>
+               </optgroup>
+               <optgroup label="Straight-cut">
+                 <option>Straight-cut: XS</option>
+                 <option>Straight-cut: S</option>
+                 <option>Straight-cut: M</option>
+                 <option>Straight-cut: L</option>
+                 <option>Straight-cut: XL</option>
+               </optgroup>
+             </select>
+           </div>
+
+           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-t-1-8">
+             <label for="email">Email</label>
+             <input class="pad-t-1-8" type="email" id="email" required>
+           </div>
+
+           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-t-1-8">
+             <label class="kilo" for="tel">Phone number <span class="italic milli">(optional)</span></label>
+             <input class="pad-t-1-8" type="tel" id="tel">
+           </div>
+
+         </div>
+
+         <hr>
+
+       </fieldset>
+
+       <fieldset>
+         <legend class="push gutter-1-4 giga">Address</legend>
+
+         <div class="grid pad-b-1-2">
+
+           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-t-1-4">
+             <label for="street-address">Street address</label>
+             <input id="street-address" required>
+           </div>
+
+           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-t-1-2">
+             <label for="city">City</label>
+             <input id="city" required>
+           </div>
+
+           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-t-1-2">
+             <label for="province">Province</label>
+             <select id="province">
+               <option>Select a province</option>
+               <option>Alberta</option>
+               <option>British Columbia</option>
+               <option>Manitoba</option>
+               <option>New Brunswick</option>
+               <option>Newfoundland & Labrador</option>
+               <option>Northwest Territories</option>
+               <option>Nova Scotia</option>
+               <option>Nunavut</option>
+               <option>Ontario</option>
+               <option>Prince Edward Island</option>
+               <option>Québec</option>
+               <option>Saskatchewan</option>
+               <option>Yukon</option>
+             </select>
+           </div>
+
+           <div class="push-1-2 unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-t-1-2">
+             <label for="postalcode">Postal code</label>
+             <input id="postalcode" required>
+           </div>
+
+         </div>
+
+       </fieldset>
